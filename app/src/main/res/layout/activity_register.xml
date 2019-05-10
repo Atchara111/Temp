@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9900">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="สมัครสมาชิก"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/InputID"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_sp"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="  ชื่อผู้ใช้" />
+
+
+
+
+            <EditText
+                android:id="@+id/InputPassword"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_sp"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="  รหัสผ่าน" />
+
+            <EditText
+                android:id="@+id/InputPhoneNumber"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_sp"
+                android:textSize="20dp"
+                android:inputType="number"
+                android:hint="  เบอร์โทร" />
+
+            <EditText
+                android:id="@+id/InputName"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_sp"
+                android:textSize="20dp"
+                android:inputType="number"
+                android:hint="  ชื่อ-นามสกุล" />
+
+            <EditText
+                android:id="@+id/InputAddress"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_sp"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:hint="  ที่อยู่" />
+
+            <Button
+                android:id="@+id/CreateAccountButton"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/border_bt1"
+                android:text="สมัครสมาชิก"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nav">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="44dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:background="@color/nav"
+            android:gravity="center"
+            android:text="การตั้งค่า"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="การแจ้งเตือน" />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp">
+
+           <TextView
+               android:id="@+id/textView14"
+               android:layout_width="100dp"
+               android:layout_height="50dp"
+               android:gravity="center"
+               android:textSize="20dp"
+               android:text="ปิด" />
+
+           <Switch
+               android:id="@+id/switch1"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_weight="1" />
+
+           <TextView
+               android:id="@+id/textView15"
+               android:layout_width="100dp"
+               android:layout_height="50dp"
+               android:gravity="center"
+               android:textSize="20dp"
+               android:text="เปิด" />
+
+
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_line"/>
+
+
+<LinearLayout
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp">
+
+
+    <TextView
+        android:id="@+id/ed_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="ข้อมูลสมาชิก" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_line"/>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:id="@+id/add_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="เพิ่มอุปกรณ์ : อุณหภูมิ" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_line"/>
+
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:id="@+id/add_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:text="เพิ่มอุปกรณ์ : กล้อง " />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_line"/>
+
+
+</LinearLayout>

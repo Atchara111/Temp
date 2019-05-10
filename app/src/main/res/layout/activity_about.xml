@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nav">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:background="@color/nav"
+            android:gravity="center"
+            android:text="ข้อมูลสมาชิก"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_sp"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="20dp"
+            android:hint="  ชื่อผู้ใช้" />
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_sp"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="20dp"
+            android:hint="  รหัสผ่าน" />
+
+
+        <TextView
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_sp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:hint="  เบอร์โทร" />
+
+        <Button
+            android:id="@+id/ed_about"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_bt1"
+            android:text="แก้ไขข้อมูล"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

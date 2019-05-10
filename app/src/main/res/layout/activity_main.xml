@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nav">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginRight="50dp"
+                android:background="@color/nav"
+                android:gravity="center"
+                android:text="เลือกเมนู"
+                android:textSize="40dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/bt_camera"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/cmr" />
+
+                <TextView
+                    android:id="@+id/btnCmr"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#fcf9ed"
+                    android:gravity="center"
+                    android:text="กล้อง"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/bt_temp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/temp" />
+
+                <TextView
+                    android:id="@+id/btnTem"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#fcf9ed"
+                    android:gravity="center"
+                    android:text="อุณหภูมิ"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/bt_setting"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/sett" />
+
+                <TextView
+                    android:id="@+id/btnSet"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#fcf9ed"
+                    android:gravity="center"
+                    android:text="การตั้งค่า"
+                    android:textSize="25dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/bt_out"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/out"/>
+
+               <TextView
+                   android:id="@+id/button4"
+                   android:layout_width="match_parent"
+                   android:layout_height="60dp"
+                   android:background="#fcf9ed"
+                   android:gravity="center"
+                   android:text="ออกจากระบบ"
+                   android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
